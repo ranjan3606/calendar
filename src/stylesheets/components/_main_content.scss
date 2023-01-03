@@ -1,0 +1,14 @@
+// @import "utils/variables";
+.content.rc-app-main {
+    width: 100vw;
+    height: calc(100% - 50px);
+    border: 1px solid black;
+    position: absolute;
+}
+
+.rc-container-wrapper {
+    height: 100%;
+    position: absolute;
+    padding: 15px 15px 30px 0px;
+    width: 100%;
+}

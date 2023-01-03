@@ -1,0 +1,36 @@
+.rc-date-cell {
+    width: $cell-width;
+    min-height: 60px;
+    // border: $show-me-border;
+    height: 16.35%;
+    cursor: pointer;
+    -webkit-transition-property: width;
+    /* Safari */
+    -webkit-transition-duration: 2s;
+    &:hover {
+        .rc-span-add {
+            display: block;
+        }
+        >.rc-date-add-event,
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 80%;
+            background: #eee;
+            margin: 5px 4px;
+        }
+    }
+}
+
+.rc-span-add {
+    display: none;
+}
+
+.rc-date-cell-event {
+    font-size: x-small;
+    margin: 3px 1px;
+    background: rgb(238, 238, 238);
+    border-radius: 2px;
+}

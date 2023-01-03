@@ -1,0 +1,39 @@
+.rc-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    top: 0;
+    width: 100%;
+    text-align: left;
+    background: #222;
+    color: #fafafa;
+    >h4,
+    h5,
+    h6 {
+        font-weight: $font-weight;
+    }
+    >.rc-header-list {
+        display: inherit;
+        flex-direction: row;
+        margin-right: 20px;
+        width: 161px;
+        justify-content: space-between;
+    }
+    >.rc-title {
+        >h4 {
+            font-weight: $font-weight
+        }
+        margin-left: 20px;
+    }
+}
+
+.rc-button {
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    &.cancel {
+        width: 100px;
+    }
+}
